@@ -1,13 +1,10 @@
-import { Link } from "expo-router";
 import { StatusBar } from "expo-status-bar";
 import { StyleSheet, Text, View } from "react-native";
-import Home from "./app/Home";
 
-export default function App() {
+export default function ParkingDetails() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
+    <View>
+      <Text>Parking Details</Text>
     </View>
   );
 }
